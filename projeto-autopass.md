@@ -1,13 +1,36 @@
+
 # Índice/Sumário
 
+* [Apresentação](#)
+* [Arquivos](#arquivos)
 * [Fluxograma](#fluxograma)
 * [Personas](#personas)
 * [Cenários](#cenarios)
 * [Protótipos](#prototipos)
     * [Protótipo lo-fi](#lofi)
+        * [Passagens QR-Code](#l-qr-code)
+        * [Bilhete Único - Débito](#l-bilhete-debito)
+        * [Bilhete Único - Dinheiro](#l-bilhete-dinheiro)
+        * [Cartão TOP - Débito](#l-top-debito)
+        * [Cartão TOP - Dinheiro](#l-top-dinheiro)
     * [Protótipo hi-fi](#hifi)
+        * [Passagens QR-Code](#qr-code)
+        * [Bilhete Único - Débito](#bilhete-debito)
+        * [Bilhete Único - Dinheiro](#bilhete-dinheiro)
+        * [Cartão TOP - Débito](#top-debito)
+        * [Cartão TOP - Dinheiro](#top-dinheiro)
+        * [Passe Escolar](#passe-escolar)
+        * [Vale-transporte](#vale-transporte)
+        * [Telas de erro](#erros)
+       
 * [Autores](#autores)
 * [Licença](#licenca)
+
+---
+
+<h1 id="arquivos"> Arquivos </h1>
+
+Para acessar todos os arquivos de desenvolvimento desse projeto, [clique aqui](https://drive.google.com/drive/folders/1HAyTaeQx_TM2DxuZbZSMoPpxuxkG8Dwz?usp=sharing).
 
 ---
 <br/>
@@ -94,11 +117,83 @@ Protótipos de Baixa Fidelidade (ou lo-fi, do inglês low-fidelity) são modelos
 
 Para acessar nosso protótipo lo-fi completo [**clique aqui**](https://www.figma.com/file/WQ02U8DxxjUd1kDMp2kxE7/Prot%C3%B3tipo-lo-fi-ATMs?type=design&node-id=0%3A1&t=sUkycMKrzXsPCixQ-1) (Figma).
 
-**Exemplo:**
+**Nosso protótipo:**
 
-![tela_inicial_projeto](./prototipos/exemplo_lofi.png)
+<h3 id="l-qr-code"> Passagens QR-Code</h2>
 
-<br/>
+![imagem_prototipo_lofi](./prototipos/lofi/qr-code/1.%20tela_inicial.png)
+![imagem_prototipo_lofi](./prototipos/lofi/qr-code/2.%20opcoes_passagem.png)
+![imagem_prototipo_lofi](./prototipos/lofi/qr-code/3.%20quantidades_bilhetes.png)
+![imagem_prototipo_lofi](./prototipos/lofi/qr-code/4.%20inserir_debito.png)
+![imagem_prototipo_lofi](./prototipos/lofi/qr-code/5.%20senha_cartao.png)
+![imagem_prototipo_lofi](./prototipos/lofi/qr-code/6.%20processando_pagamento.png)
+![imagem_prototipo_lofi](./prototipos/lofi/qr-code/7.%20pagamento_aprovado.png)
+![imagem_prototipo_lofi](./prototipos/lofi/qr-code/8.%20imprimir_recibo.png)
+![imagem_prototipo_lofi](./prototipos/lofi/qr-code/9.%20agradecimento.png)
+
+---
+
+<h3 id="l-bilhete-debito"> Bilhete Único - Débito</h2>
+
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/1.%20tela_inicial.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/2.%20opcoes_passagem.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/3.%20inserir_bilhete_unico.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/4.%20tipo_recarga.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/5.%20forma_pagamento.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/6.%20selecionar_valor.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/7.%20inserir_debito.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/8.%20senha_cartao.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/9.%20processando_pagamento.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/10.%20pagamento_aprovado.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/11.%20imprimir_recibo.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-debito/12.%20agradecimento.png)
+
+---
+
+<h3 id="l-bilhete-dinheiro"> Bilhete Único - Dinheiro</h2>
+
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-dinheiro/1.%20tela_inicial.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-dinheiro/2.%20opcoes_passagem.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-dinheiro/3.%20inserir_bilhete_unico.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-dinheiro/4.%20tipo_recarga.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-dinheiro/5.%20forma_pagamento.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-dinheiro/6.%20inserir_dinheiro.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-dinheiro/7.%20pagamento_dinheiro.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-dinheiro/8.%20imprimir_recibo.png)
+![imagem_prototipo_lofi](./prototipos/lofi/bilhete-dinheiro/9.%20agradecimento.png)
+
+---
+
+<h3 id="l-top-debito"> Cartão TOP - Débito</h2>
+
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/1.%20tela_inicial.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/2.%20opcoes_passagem.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/3.%20inserir_bilhete_top.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/4.%20tipo_recarga.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/5.%20forma_pagamento.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/6.%20selecionar_valor.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/7.%20inserir_debito.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/8.%20senha_cartao.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/9.%20processando_pagamento.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/10.%20pagamento_aprovado.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/11.%20imprimir_recibo.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-debito/12.%20agradecimento.png)
+
+---
+
+<h3 id="l-top-dinheiro"> Cartão TOP - Dinheiro</h2>
+
+![imagem_prototipo_lofi](./prototipos/lofi/top-dinheiro/1.%20tela_inicial.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-dinheiro/2.%20opcoes_passagem.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-dinheiro/3.%20inserir_bilhete_top.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-dinheiro/4.%20tipo_recarga.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-dinheiro/5.%20forma_pagamento.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-dinheiro/6.%20inserir_dinheiro.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-dinheiro/7.%20pagamento_dinheiro.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-dinheiro/8.%20imprimir_recibo.png)
+![imagem_prototipo_lofi](./prototipos/lofi/top-dinheiro/9.%20agradecimento.png)
+
+---
 
 <h2 id="hifi"> Protótipo de Alta Fidelidade (hi-fi) </h2>
 
@@ -108,22 +203,130 @@ Para acessar nosso protótipo hi-fi completo [**clique aqui**](https://xd.adobe.
 
 
 
-**Exemplo:**
+**Nosso protótipo:**
 
-![tela_inicial_projeto](./prototipos/exemplo_hifi.png)
+<h3 id="qr-code"> Passagens QR-Code</h2>
+
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/1.%20qr_code.png)
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/2.%20qr_code.png)
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/3.%20qr_code.png)
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/4.%20qr_code.png)
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/5.%20qr_code.png)
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/6.%20qr_code.png)
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/7.%20qr_code.png)
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/8.%20qr_code.png)
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/9.%20qr_code.png)
+![imagem_prototipo_hifi](./prototipos/hifi/qr-code/10.%20qr_code.png)
+
+---
+
+<h3 id="bilhete-debito"> Bilhete Único - Débito</h2>
+
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/1.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/2.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/3.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/4.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/5.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/6.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/7.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/8.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/9.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/10.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/11.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/12.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/13.%20bilhete-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-debito/14.%20bilhete-debito.png)
+
+---
+
+<h3 id="bilhete-dinheiro"> Bilhete Único - Dinheiro</h2>
+
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-dinheiro/1.%20bilhete-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-dinheiro/2.%20bilhete-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-dinheiro/3.%20bilhete-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-dinheiro/4.%20bilhete-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-dinheiro/5.%20bilhete-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-dinheiro/6.%20bilhete-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-dinheiro/7.%20bilhete-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-dinheiro/8.%20bilhete-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/bilhete-dinheiro/9.%20bilhete-dinheiro.png)
+
+---
+
+<h3 id="top-debito"> Cartão TOP - Débito</h2>
+
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/1.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/2.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/3.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/4.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/5.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/6.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/7.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/8.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/9.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/10.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/11.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/12.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/13.%20top-debito.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-debito/14.%20top-debito.png)
+
+---
+
+<h3 id="top-dinheiro"> Cartão TOP - Dinheiro</h2>
+
+![imagem_prototipo_hifi](./prototipos/hifi/top-dinheiro/1.%20top-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-dinheiro/2.%20top-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-dinheiro/3.%20top-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-dinheiro/4.%20top-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-dinheiro/5.%20top-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-dinheiro/6.%20top-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-dinheiro/7.%20top-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-dinheiro/8.%20top-dinheiro.png)
+![imagem_prototipo_hifi](./prototipos/hifi/top-dinheiro/9.%20top-dinheiro.png)
+
+---
+
+<h3 id="passe-escolar"> Passe escolar</h2>
+
+![imagem_prototipo_hifi](./prototipos/hifi/passe-escolar/1.%20passe-escolar.png)
+![imagem_prototipo_hifi](./prototipos/hifi/passe-escolar/2.%20passe-escolar.png)
+![imagem_prototipo_hifi](./prototipos/hifi/passe-escolar/3.%20passe-escolar.png)
+![imagem_prototipo_hifi](./prototipos/hifi/passe-escolar/4.%20passe-escolar.png)
+![imagem_prototipo_hifi](./prototipos/hifi/passe-escolar/5.%20passe-escolar.png)
+![imagem_prototipo_hifi](./prototipos/hifi/passe-escolar/6.%20passe-escolar.png)
+![imagem_prototipo_hifi](./prototipos/hifi/passe-escolar/7.%20passe-escolar.png)
+
+---
+
+<h3 id="vale-transporte"> Vale-transporte</h2>
+
+![imagem_prototipo_hifi](./prototipos/hifi/vale-transporte/1.%20vale-transporte.png)
+![imagem_prototipo_hifi](./prototipos/hifi/vale-transporte/2.%20vale-transporte.png)
+![imagem_prototipo_hifi](./prototipos/hifi/vale-transporte/3.%20vale-transporte.png)
+![imagem_prototipo_hifi](./prototipos/hifi/vale-transporte/4.%20vale-transporte.png)
+![imagem_prototipo_hifi](./prototipos/hifi/vale-transporte/5.%20vale-transporte.png)
+![imagem_prototipo_hifi](./prototipos/hifi/vale-transporte/6.%20vale-transporte.png)
+![imagem_prototipo_hifi](./prototipos/hifi/vale-transporte/7.%20vale-transporte.png)
+
+---
+<h3 id="erros"> Telas de erro</h2>
+
+![imagem_prototipo_hifi](./prototipos/hifi/erros/erro_senha.png)
+![imagem_prototipo_hifi](./prototipos/hifi/erros/erro_pagamento.png)
 
 ---
 <br/>
 
 <h1 id="autores"> Autores </h1>
 
-* **Rafael Soares Cardozo** - *1222133018*
-* **Matheus Cruz** - *8222243702*
-* **Thiago Schott** - *10722127490*
-* **Rennan Silva** - *823124657*
-* **Nicolas Coiado** - *822149637*
-* **Adiel Dornelas** - *823132986*
-
+Aluno | RA 
+:--- | :---: 
+Rafael Soares Cardozo | 1222133018
+Matheus Cruz | 8222243702
+Thiago Schott | 10722127490
+Rennan Silva | 823124657
+Nicolas Coiado | 822149637
+Adiel Dornelas | 823132986
 ---
 <br/>
 
