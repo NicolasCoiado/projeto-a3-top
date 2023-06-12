@@ -1,7 +1,7 @@
 
 # Índice/Sumário
 
-* [Apresentação](#)
+* [Apresentação](#apresentacao)
 * [Arquivos](#arquivos)
 * [Fluxograma](#fluxograma)
 * [Personas](#personas)
@@ -22,9 +22,18 @@
         * [Passe Escolar](#passe-escolar)
         * [Vale-transporte](#vale-transporte)
         * [Telas de erro](#erros)
-       
+* [Heurística de Nielsen](#nielsen)
+* [Projeto codificado](#codificado)
 * [Autores](#autores)
 * [Licença](#licenca)
+
+---
+
+<h1 id="apresentacao"> Apresentação </h1>
+Este projeto trata-se de um redesign completo do sistema utilizado pelas ATMs (Máquinas de autoatendimento) do TOP, que é produto da empresa Autopass, utilizado no transporte público de São Paulo.
+
+
+Para conferir nosso projeto finalizado, [clique aqui](https://www.youtube.com/watch?v=IG1jPeyNzkE).
 
 ---
 
@@ -316,6 +325,22 @@ Para acessar nosso protótipo hi-fi completo [**clique aqui**](https://xd.adobe.
 
 ---
 <br/>
+
+<h1 id="nielsen"> Heurística de Nielsen </h1>
+
+Existem dez heurísticas criadas por Jakob Nielsen, cientista da computação, que ajudam a projetar uma boa interface e por consequência uma ótima experiência de uso. E nós utilizamos essas regras para uma análise de nosso sistema.
+
+Para conferir nossa análise heurística, [clique aqui](https://drive.google.com/file/d/1IBOjluMOdi1v3OJbo_RWUBXmCXQB1zXv/view?usp=sharing).
+
+---
+
+<h1 id="codificado"> Projeto codificado </h1>
+
+Acesse o código de nosso projeto, através de nosso repositório no Github. Para fazer isto, [clique aqui](https://github.com/cmatt7/autopass-A3).
+
+Para o desenvolvimento do projeto utilizamos: HTML, CSS, JavaScript, Vue.js e Tailwind. 
+
+---
 
 <h1 id="autores"> Autores </h1>
 
